@@ -25,10 +25,29 @@
 body{
             position: relative;
         }
-        #section1 {padding-top: 45px; min-height: 100vh; background: white;   background-size: cover; background-position: center;}
-        #section2 {padding-top: 45px; min-height: 100vh; background: url(./slide-3.jpg);  background-size: cover; background-position: center;}
-        #section3 {padding-top: 45px; min-height: 100vh;  background: url(./slide-1.jpg); padding-bottom: 0;  background-size: cover; background-position: center;}
-        #section4 {padding-top: 45px; min-height: 100vh; background-color: red;}
+        #section0 {padding-top: 45px; min-height: 100vh; background: #dee2ea; }
+        #section1 {padding-top: 45px; min-height: 100vh; background: white; }
+        #section2 {padding-top: 45px; min-height: 100vh; background-image:
+    linear-gradient(4deg, rgba(38,8,31,0.75) 30%, rgba(213,49,127,0.3) 45%, rgba(232,120,12,0.3) 100%),
+    url("./GettyImages-1368776379-scaled.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+          background-position: center; background-size: cover; }
+
+
+          /* #section2 {padding-top: 45px; min-height: 100vh; background-image:
+    linear-gradient(4deg, rgba(38,8,31,0.75) 30%, rgba(213,49,127,0.3) 45%, rgba(232,120,12,0.3) 100%),
+    url("https://images.unsplash.com/photo-1503803548695-c2a7b4a5b875?ixlib=rb-1.2.1&auto=format&fit=crop&w=2250&q=80");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+          background-position: center; background-size: cover; } */
+
+        #section3 {padding-top: 45px; min-height: 100vh;  background: yellow;}
+/*         #section4 {padding-top: 45px; min-height: 100vh; background-color: red;} */
 
     header{
     position: absolute;
@@ -71,35 +90,40 @@ font-weight: 400;
 
     }
 
-    .hero{
+    #section0{
     position: relative;
     /* background: black; */
-    background: url(./4.jpg);
+    background: #dee2ea;
     min-height: 100vh;
     background-size: cover;
     background-position: center;
 }
 
-.hero h1{
-    font-size: 70px;
+#section0 h1{
+    font-size: 55px;
     font-weight: 800;
     margin: 0;
-    margin-top: 120px;
+    margin-top: 10px;
     padding: 0;
     color: orangered;
 }
 
-.hero h5{
-    margin-top: 20px;
+#section0 h1 span{
+font-weight: lighter;	
+}	
+
+#section0 h5{
+    margin-top: 0px;
     color: black;
     font-style: italic;
     /* font-weight: bold; */
 }
 
 #btn button{
-    margin-top: 40px;
+    /* margin-top: 0px; */
+    margin-bottom: 210px;
     background-color: orangered;
-    border-radius: 30px;
+    border-radius: 15px;
     padding: 10px 15px;
    
 }
@@ -186,7 +210,7 @@ font-weight: 400;
 												<div class="collapse navbar-collapse" id="navbarNav"> 
 	<ul class="navbar-nav ms-auto"> 
 				<li class="nav-item"> 
-								<a class="nav-link active" aria-current="page" href="./new.html">Home
+								<a class="nav-link active" aria-current="page" href="#section0">Home
 								</a> 
 				</li>
 				 <li class="nav-item"> <a class="nav-link" href="#section1">About me
@@ -210,16 +234,14 @@ font-weight: 400;
 
 
 
-<a href="https://web.whatsapp.com/send?phone=+233596849001&text=ffk;" class="float" target="_blank">
-    <i class="fa fa-whatsapp my-float"></i>
-    </a>
+<a href="https://api.whatsapp.com/send?phone=233596849001"  class="float" target="_blank"><i class="fa fa-whatsapp my-float"></i></a>
 
 
 
-<section class="hero d-flex flex-column justify-content-center">
+<!-- <section class="hero d-flex flex-column justify-content-center">
     <div class="container">
     <div class="class row">
-      <div class="col md-6"><h1>Hi there🤗</h1>
+	    <div class="col md-6"><h1>Hi there<span>🤗</span></h1>
         <h5>We are a team of young and energetic<br>
              individuals committed to providing you with<br>
               excellent services 👨🏾‍💻.<br>We 
@@ -229,11 +251,46 @@ font-weight: 400;
       <div id="btn">
       <button type="submit"><a href="https://web.whatsapp.com/send?phone=+233596849001&text=ffk;" style="text-decoration: none; font-weight: bold; color: black;">Hire me</a></button>
       </div>
-    </section>
+    </section> -->
 
 
 
       <!-- Content section -->
+
+      <div id="section0" class="container-fluid">
+          <!--  image right  -->
+  <div class="row">
+    <div class="col-md-6 order-sm-6">
+
+      <img class="image-responsive" src="./1.png" alt="" class="w-100" />
+    </div>
+    <!-- /.col-md-6 -->
+    <div class="col-md-6 order-sm-1">
+
+      <div class="row align-items-center h-100 mx-5">
+        <div class="col">
+          <h1>Hi there<span>🤗</span></h1>
+          <h5>We are a team of young and energetic<br>
+            individuals committed to providing you with<br>
+             excellent services 👨🏾‍💻.<br>We 
+           are unique and multifacted in ideas.<br>We are here to make your business grow</h5>
+       <h6><a href="#section3" style="text-decoration: none; margin-top: 50px; font-weight: lighter">Graphic Design | Screen Printing | Photography</a></h6>
+     </div>
+     <div id="btn">
+      <button type="submit"><a href="https://web.whatsapp.com/send?phone=+233596849001&text=ffk;" style="text-decoration: none; font-weight: bold; color: black;">Hire me</a></button>
+      </div>  
+        </div>
+      </div>
+
+    </div>
+    <!-- /.col-md-6 -->
+
+  </div>
+  <!-- /.row -->
+
+</div>
+      </div>
+      
    
       <div id="section1" class="container-fluid">
         <div class="text-center">
@@ -245,26 +302,40 @@ font-weight: 400;
           <hr class="w-50 mx-auto"/>
         </div>
          <div class="container-fluid">
-        <div class="row">
-            <div class="col-md-4 b1">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-              Eligendi sunt natus ut harum, incidunt accusantium accusamus
-               saepe, eveniet ratione dolorem provident voluptatem cumque 
-               itaque earum in omnis perferendis libero dolore.
+        <div class="row g-5 my-5">
+            <div style="background-color: #dee2ea; border-radius: 5px;" class="col-md-4 b1">
+              I am a BSc. Computer Engineering student. I want to learn Data Science,
+              but my financial condition is not so good that I can afford the fees for the course.
+              Overall, it has been a very challenging time for our family, cutting costs where we 
+              can and dipping into savings to survive.
+              I hope that you will take these circumstances into consideration as you review my 
+              financial aid package for enrolling into this course. It has been my dream since 
+              childhood to become a Data Scientist . The course is a perfect fit for me as I am eager 
+              to learn and put into practice whatever I am taught , and I know I would contribute to my community . 
+              I really want to learn Data Science, therefore I am applying to the Financial Aid.
+              Thank you so much for taking time to read this letter and for considering my request.
             </div>
 
-          <div class="col-md-4 b2">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            Eligendi sunt natus ut harum, incidunt accusantium accusamus
-             saepe, eveniet ratione dolorem provident voluptatem cumque 
-             itaque earum in omnis perferendis libero dolore.
+          <div style="background-color: #dee2ea; border-radius: 5px;" class="col-md-4 b2">
+             Everyone can agree that I am a 
+            good student and that I like to study. My favorite subjects are chemistry and biology. 
+            I am going to enter the university because my goal is to study these subjects in future 
+            and to become a respected professional in one of the fields.
+            I can say that I am a responsible and a hard-working student. Moreover, being a sociable person, I 
+            have many friends since I like to communicate with people and get to know new interesting individuals.
+            I enjoy my time at school: it is really nice to study, the students are very friendly and ready to help.
+              The atmosphere cannot but make me want to go there every time. I like to receive and deal with challenging
+              tasks. I am a very enthusiastic student and I think this is a strong point of mine.
           </div>
 
-        <div class="col-md-4 b3">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-          Eligendi sunt natus ut harum, incidunt accusantium accusamus
-           saepe, eveniet ratione dolorem provident voluptatem cumque 
-           itaque earum in omnis perferendis libero dolore.
+        <div style="background-color: #dee2ea; border-radius: 5px;" class="col-md-4 b3">
+          My friends say that I am a very funny and an interesting girl with a good sense of humor. As soon as I meet 
+            new people who are happy to meet me, I feel extremely comfortable with them. 
+            Meeting new people who support all my efforts to grow and develop my skills not only 
+            in the subjects but also in my hobbies gives me a lot of energy. Many of those friends 
+            who surround me now I met on the street while doing my hobby. I’m in love with photography, 
+            so the thing I love doing so much became even more enjoyable. I decided to take beautiful pictures 
+            of accidental people and share these photos with them by emails or in social media. 
         </div>
     </div>
   </div>
@@ -272,146 +343,26 @@ font-weight: 400;
     </div>
 
     <div id="section2" class="container-fluid">
-        <h1>Services</h1>
-        <p>Lorem ipsum dolor sit amet consectetur 
-        adipisicing elit. Impedit totam digni
-        ssimos debitis quis quod facere incidunt 
-        earum aspernatur sed a esse cumque, ad 
-        voluptas optio animi! Vitae minus itaque 
-        molestiae.</p>
+      <div class="text-center"></div>
+      <h1 style="color: white;">Services</h1>
+    <div class="text-center" mx-auto mt-20>
+    <h2 style="font-size: 90px; color: white; margin-top: 100px;">I'm a Big Chels<span>💙</span></h2>
+      </div>
     </div>
 
     <div id="section3" class="container-fluid">
-        <div class="container"></div>
-        <h1>Contact Us</h1>
+        <div class="text-center"></div>
+        <h1>Contact Me</h1>
+	    <div class="text-center" mx-auto mt-20>
+	    <h2 style="font-size: 100px;">👻</h2>
+		    </div>
       </div>
     </div>
        
 
 
-        
-   
 
-
-        <!-- carousel slider -->
-<!--        
-        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false"  style="min-height: 25vh; max-width: 80vw; margin: auto; 
-        padding-top: 15x;">
-            <div class="carousel-indicators">
-              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-            </div>
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="./1.jpg" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                  <h5>First slide label</h5>
-                  <p>Some representative placeholder content for the first slide.</p>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img src="./2.jpg" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                  <h5>Second slide label</h5>
-                  <p>Some representative placeholder content for the second slide.</p>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img src="./3.jpg" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                  <h5>Third slide label</h5>
-                  <p>Some representative placeholder content for the third slide.</p>
-                </div>
-              </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
-          </div>
-         -->
-        <!-- carousel slider -->
-
-
-
-   
-
-    
-
-
-
-
-
-
-
-				
-				
-				
-				
-				
-				
-			<!-- <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
- 
-  <div class="carousel-indicators">
-    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-    
-    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-   
-    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-  </div>
- 
-  <div class="carousel-inner">
-   
-    <div class="carousel-item active">
-     <div class="container">
-       <img src="./1.jpg" class="d-block w-100" alt="...">
-        <h5>NAE's Abele walls</h5>
-        <p><em>Get the best popsicle abele walls from campus at Brunei complex R17U </em>😛</p>
-      </div>
-    </div>
-    <div class="carousel-item">
-       <div class="container">
-      <img src="./2.jpg" class="d-block w-100" alt="...">
-        <h5>Deena Bites</h5>
-        <p><em>Crunchy spring rolls, just a call away</em>😊</p>
-      </div>
-    </div>
-    <div class="carousel-item">
-    				  <div class="container">
-      <img src="./3.jpg" class="d-block w-100" alt="...">
-        <h5>JB's Shito</h5>
-        <p><em>Want hot and spicy shito for your meals? Worry no more, call us, we deliver at your doorstep</em>🤗</p>
-      </div>
-    </div>
-  </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
-</div>	 -->
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
+						
 	 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" 
    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" 
    crossorigin="anonymous"></script> <!-- Option 2: Separate Popper and Bootstrap JS -->
@@ -425,6 +376,8 @@ font-weight: 400;
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
 
 <script>
+	alert("Welcome to my Portfolio Website😁")
+	
     $(document).ready(function(){
       $(window).scroll(function () {
           if ($(this).scrollTop() > 50) {
